@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5% auto;
+    max-width: 60%;
+}
+
+.menuBar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+}
+
+.menuBar a {
+    text-decoration: none;
+    font-size: 21px;
+    display: block;
+    color: black;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+
+.menuBar .active {
+    color: blue;
+}
+
+img {
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    margin-left: 250px;
+    padding-left: 20px;
+    border-left: lightgray solid 1px;
+    text-align: justify;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 20%;
+    font-weight: bold;
+}
+
+.right {
+    width: 80%;
+}
